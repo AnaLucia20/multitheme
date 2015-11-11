@@ -1,0 +1,12 @@
+@font-face{
+    font-family:halflings-regular;
+    font-style:normal;
+    font-weight:normal;
+    src: url(../fonts/glyphicons-halflings-regular.woff);
+}
+h1{
+	 font-family:halflings-regular;
+    font-size: 50px;
+    color:black;
+    margin: 7% 0% 2%;
+}

@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+a{
+    font-family: 
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+/*::::::::::::::::::carousel::::::::::::::::::::::::::*/
+.container-fluid{
+    padding: 0%;
+    margin-top:8%; 
+}
+.carousel-caption{
+    right: 50%;
+    left: 11%;
+    top: 27%;
+}
+/*::::::::::::::::::our-work::::::::::::::::::::::::::*/
+#our-work{
+    background-color:#F2F2F2;
+}
+.pd-0{
+    padding: 0%;
+}
+.line-blue{
+    width: 3%;
+    border: 1px gray solid;
+    display:inline-block;
+    margin-bottom: 7px;
+}
+.icon .fa{
+    font-size: 1.5em;
+    color: #2E9AFE;
+}
+.descrition{
+    text-align: center;
+    font-size: 1em;
+    padding: 2% 25% 6%;
+}
+
+.btn-color{
+    background-color: #2E9AFE;
+    border-bottom: 1px blue solid;
+    padding: 1%;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+#about-us{
+    margin-bottom: 5%;
+}
+/*::::::::::::::::::get-in-touch::::::::::::::::::::::::::*/
+
+#get-in-touch{
+    background-color: #2E9AFE;
+}
+
+.descrition-white{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 2% 25% 6%;
+}
+
+/*::::::::::::::::::our-work::::::::::::::::::::::::::*/
+
+#contact{
+    background-image: url("../images/mapa.jpg");
+}
